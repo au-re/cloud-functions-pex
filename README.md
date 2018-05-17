@@ -2,7 +2,7 @@
 
 **Easily build [Python Executables](https://github.com/pantsbuild/pex) that you can run on [google-cloud-functions](https://cloud.google.com/functions/).**
 
-It turns out that running python code with dependencies like sklearn and scipy on google-cloud-functions is not so easy! After a lot of trial and error I built this docker image to take care of all this. With it you can generate a python executable with all the dependencies you need to run your code on cloud functions.
+It turns out that running python code with dependencies like sklearn and scipy on google-cloud-functions is not so easy! After a lot of trial and error I built this docker image to take care of all this. With it you can generate a python executable (python 2 or 3) with all the dependencies you need to run your code on cloud functions.
 
 ## Building the executable
 
@@ -57,7 +57,7 @@ Done!
 
 Remember that you are limited to **100MB** when uploading to cloud functions. The resulting size for the sklearn executable for example is **53MB**.
 
-If you encounter issues, you might have to upgrade your cloud function to use more than the standard 256MB of ram.
+If you encounter issues, you might have to upgrade your cloud function to use more than the default 256MB of ram.
 
 ## License
 
