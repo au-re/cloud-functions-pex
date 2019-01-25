@@ -1,3 +1,5 @@
+**DEPRECATED** you can now [run python natively](https://cloud.google.com/functions/docs/concepts/python-runtime) on cloud functions.
+
 # cloud-functions-pex
 
 **Easily build [Python Executables](https://github.com/pantsbuild/pex) that you can run on [google-cloud-functions](https://cloud.google.com/functions/).**
